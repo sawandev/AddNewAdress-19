@@ -1,2 +1,2 @@
-# AddNewAdress
- Este programa complementa o projeto TaqAdress-19, pois é capaz de registrar novos e-mails no banco de dados e fazer consultas.
+ Este programa complementa o projeto TaqAdress-19, pois é capaz de registrar novos e-mails no banco de dados e fazer consultas. 
+ Atualmente ele é somente capaz de consultar quantos e-mails existem no sistema, porém a proposta é criar um novo ambiente onde eu possa efetuar querys atravéz de menus e sub-menus inteligentes.
