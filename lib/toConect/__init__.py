@@ -1,12 +1,7 @@
 import mysql.connector
 
 
-def sendToBd(email):
-    conexao = mysql.connector.connect(database='mydatabase',
-                                  host='localhost',
-                                  password='',
-                                  user='root')
-
+def sendToBd(email, conexao):
     if conexao.is_connected():
         cursor = conexao.cursor()
     else:
@@ -20,12 +15,7 @@ def sendToBd(email):
     conexao.close()
     return print('QUERY EXECUTADA COM SUCESSO!')
     
-def quantId():
-    conexao = mysql.connector.connect(database='mydatabase',
-                                  host='localhost',
-                                  password='',
-                                  user='root')
-
+def quantId(conexao):
     if conexao.is_connected():
         cursor = conexao.cursor()
     else:
