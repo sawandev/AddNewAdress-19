@@ -1,4 +1,8 @@
 def leiaInt(msg):
+    """
+    :param msg: Input
+    :return: (check if what was typed is from the int type)
+    """
     while True:
         try:
             n = int(input(msg))
